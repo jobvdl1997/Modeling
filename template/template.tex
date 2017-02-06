@@ -1,0 +1,52 @@
+%How to use:
+%\title{Practicum Week 4\\2IC30 - Computer Systems}
+%\author{Roelf Wichertjes\\Student \#: 1008016\\Group 5}
+%\newcommand{\footertitle}{2IC30 - Practicum Week 4}
+%\newcommand{\preamble}{}
+%\input{/home/rewbycraft/Documents/latex/tue/template}
+
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[includeheadfoot,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{mathtools}
+\usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{xparse}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{calc}
+
+\pagestyle{fancy}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\fancyhf{}
+\lhead{\textsc{\fancyplain{}{\rightmark }}}
+\rhead{\raisebox{-0.30\height}{\includegraphics[height=20pt]{/home/rewbycraft/Documents/latex/tue/tuelogo.pdf}}}
+\cfoot{\thepage}
+\lfoot{Anneke Huijsmans // Job van der Looij // Roelf Wichertjes}
+\rfoot{\textsc{\footertitle}}
+\renewcommand\headrulewidth{1pt}
+\renewcommand\footrulewidth{1pt}
+\setlength{\headheight}{26pt}
+\setlength{\headsep}{0.75in}
+\addtolength{\footskip}{0.50in}
+\addtolength{\textheight}{-1.25in}
+
+\fancyheadoffset{0.5in}
+\fancyfootoffset{0.5in}
+
+\newcommand{\headrulecolour}{0.823529412,0.125490196,0.384313725}
+\let\oldheadrule\headrule
+\renewcommand{\headrule}{{\color[rgb]{\headrulecolour}\oldheadrule}}
+
+\preamble
+
+\newcommand{\ssection}[1]{\section*{#1}\markright{#1}}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+\newpage
